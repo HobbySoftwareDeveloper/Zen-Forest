@@ -2950,10 +2950,6 @@ main.git-view .tree-item-inner.nav-file-title-content {
 .bases-tbody {}
 
 
-
-
-
-
 /* ============================================================
    Obsidian Narrow Viewport - Unified Width for Headers & Body
    窄视距模式 - 标题与正文统一宽度
@@ -3281,4 +3277,30 @@ body {
         opacity: 1;
         transform: scale(1) translateY(0);
     }
+}
+
+/* ============================================================
+   [Noctivision Custom Fix] 消除Explorer移动bug
+   ============================================================ */
+
+/* 1. 先把基础状态下的背景色和所有奇怪动画全部熔断，并指定干净的颜色过渡通道 */
+.nav-folder-title, 
+.nav-file-title {
+    transition: background-color 0.2s ease, box-shadow 0.2s ease !important; /* 只准用最简单的线性 ease，绝不用过冲曲线 */
+}
+
+/* 2. 精准定义 Hover 状态：直接用一个固定值锁死，不准任何人跟它叠加 */
+.nav-folder-title:hover,
+.nav-file-title:hover {
+    /* 这里强行用一个带透明度的暗色/高亮叠加（可根据你的主题风格自行调整） */
+    background-color: var(--background-modifier-hover) !important; 
+    color: var(--text-accent) !important;
+}
+
+/* 3. 彻底封死原作者在别的状态下（比如 focus 或 active）可能会触发的背景色污染 */
+.nav-folder-title:active,
+.nav-file-title:active,
+.nav-folder-title:focus,
+.nav-file-title:focus {
+    transition: none !important;
 }
