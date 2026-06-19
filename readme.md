@@ -5,9 +5,9 @@ A heavily customized, minimal, and aesthetic visual replacement for Obsidian. Ba
 `Zen Forest` 是一款基于原版 Zen 主题深度魔改的 Obsidian 极简视觉主题。它在保留原版纯净质感的同时，对高阶排版、窄视距对齐以及细节动画进行了像素级的打磨，旨在为你提供一个如同林间清晨般幽静、沉浸的沉浸式写作环境。
 
 
-![](Screenshot 2026-06-19 121036.png)
-![](Screenshot 2026-06-19 121048.png)
-![](Screenshot 2026-06-19 121123.png)
+![](Screenshot%202026-06-19%20121036.png)
+![](Screenshot%202026-06-19%20121048.png)
+![](Screenshot%202026-06-19%20121123.png)
 
 ---
 
