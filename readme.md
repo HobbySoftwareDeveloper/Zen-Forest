@@ -49,7 +49,7 @@ A heavily customized, minimal, and aesthetic visual replacement for Obsidian. Ba
 ### Theme Color & Style Notice / 主题配色与微调须知
 
 *   **Recommended Accent Color / 推荐主题色**
-    *   *ZH:* 为了获得完美的“森林禅”视觉沉浸感，建议在安装主题后，进入 `设置 -> 外观 -> 主题色（Accent color）` 中，将颜色自定义为 `#688958`（即 RGB: `104, 137, 88`）。
+    *   *ZH:* 为了获得完美的森林视觉沉浸感，建议在安装主题后，进入 `设置 -> 外观 -> 主题色（Accent color）` 中，将颜色自定义为 `#688958`（即 RGB: `104, 137, 88`）。
     *   *EN:* For the best "Zen Forest" immersive experience, it is highly recommended to set your custom Accent Color to `#688958` (RGB: `104, 137, 88`) under `Settings -> Appearance -> Accent color`.
 
 *   **Hardcoded UI & Heading Colors / 核心配色微调说明**
