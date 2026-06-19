@@ -15,13 +15,10 @@ A heavily customized, minimal, and aesthetic visual replacement for Obsidian. Ba
 
 *   **Unified Narrow Viewport Width / 窄视距排版一体化**
     *   *EN:* Overrode Obsidian's default behavior in readable line width mode. All headings ($H_1$ to $H_6$) and body text are now perfectly constrained to a unified layout width, eliminating horizontal misalignment.
-    *   *ZH:* 完美重构了可读行宽（Readable Line Width）模式。所有标题（$H_1$ 至 $H_6$）与正文在窄视距下实现像素级完美对齐，彻底解决原生主题标题两边间距错位的问题。
-*   **Stripped Heading Underlines / 极致纯净的无干扰标题**
-    *   *EN:* Removed all bottom borders and pseudo-element underlines from all heading levels in both Live Preview and Reading views, delivering an ultra-clean digital canvas.
-    *   *ZH:* 彻底清除了实时预览和阅读模式下所有各级标题的下划线及伪元素下划线线索，消灭视觉噪点，让文字专注于文字本身。
+    *   *ZH:* 完美重构了可读行宽（Readable Line Width）模式。所有标题（$H_1$ 至 $H_6$）与正文在窄视距下实现对齐，彻底解决原生主题标题两边间距错位的问题。
 *   **Refined Modal Animations / 丝滑转场动画**
-    *   *EN:* Replaced rigid transitions with a custom `cubic-bezier(0.2, 0.9, 0.4, 1.1)` entrance animation for modals and dialogs, rendering fluid, cinematic window scaling.
-    *   *ZH:* 精心调校了模态弹窗的入场曲线，采用 `cubic-bezier` 缓动动画，让每一次弹窗开启都带有细腻、丝滑且富有弹性（Scale & Translate）的电影级动态质感。
+    *   *EN:* Replaced rigid transitions with a custom `cubic-bezier` entrance animation for modals and dialogs, rendering fluid, cinematic window scaling.
+    *   *ZH:* 精心调校了模态弹窗的入场曲线，采用 `cubic-bezier` 缓动动画，让每一次弹窗开启都带有细腻、丝滑且富有弹性的质感。
 
 ---
 
