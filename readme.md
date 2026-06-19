@@ -46,6 +46,16 @@ A heavily customized, minimal, and aesthetic visual replacement for Obsidian. Ba
 
 ---
 
+### Theme Color & Style Notice / 主题配色与微调须知
+
+*   **Recommended Accent Color / 推荐主题色**
+    *   *ZH:* 为了获得完美的“森林禅”视觉沉浸感，建议在安装主题后，进入 `设置 -> 外观 -> 主题色（Accent color）` 中，将颜色自定义为 `#688958`（即 RGB: `104, 137, 88`）。
+    *   *EN:* For the best "Zen Forest" immersive experience, it is highly recommended to set your custom Accent Color to `#688958` (RGB: `104, 137, 88`) under `Settings -> Appearance -> Accent color`.
+
+*   **Hardcoded UI & Heading Colors / 核心配色微调说明**
+    *   *ZH:* 请注意，本主题的各级标题（$H_1$ - $H_6$）以及大部分 UI 组件的森林系配色是**写死在底层代码中**的，无法通过 Obsidian 的外观设置或 Style Settings 插件直接更改。如果您想要自定义这些颜色，需要直接打开 `theme.css` 文件，搜索 `--h1-color` 至 `--h6-color` 以及 `.theme-dark`/`.theme-light` 块下的变量进行手动修改。
+    *   *EN:* Please note that the forest-vibe color palette for headings ($H_1$ - $H_6$) and core UI components is hardcoded. They **cannot** be modified via the native appearance settings or the Style Settings plugin. If you wish to customize them, please open `theme.css` manually and modify the variables like `--h1-color` to `--h6-color` and relevant themed color tokens.
+
 ## License & Credits / 版权与协议
 
 *   **Original Theme:** [Zen Theme](https://github.com/laughmaker/zen) by @Laughmaker.
