@@ -3110,7 +3110,7 @@ body {
 
 /* Inset shadow variables for glass effect / 毛玻璃内阴影变量 */
 .theme-dark {
-    --inset-shadow: rgba(0, 0, 0, 0.6);
+    --inset-shadow: rgba(0, 0, 0, 0.4);
 }
 
 .theme-light {
@@ -3132,7 +3132,7 @@ body {
 
     /* Subtle shadow & border for floating feel / 微弱阴影与边框营造悬浮感 */
     border: 1px solid rgba(255, 255, 255, 0.08) !important;
-    box-shadow: inset 0 0px 15px 10px var(--inset-shadow), 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;
+    box-shadow: inset 0 0px 15px 0px var(--inset-shadow), 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;
     border-radius: 16px !important;
 
     /* Entrance animation / 入场动画 */
