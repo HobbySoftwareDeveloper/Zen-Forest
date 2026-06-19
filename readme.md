@@ -16,6 +16,10 @@ A heavily customized, minimal, and aesthetic visual replacement for Obsidian. Ba
   Overrode Obsidian's default behavior in readable line width mode. All headings (H1 to H6) and body text are now perfectly constrained to a unified layout width, eliminating horizontal misalignment.
 * **Refined Modal Animations**
   Replaced rigid transitions with a custom `cubic-bezier` entrance animation for modals and dialogs, rendering fluid, cinematic window scaling.
+* **Curated Forest-Vibe Palette**
+  Features a deeply customized, hardcoded forest color scheme across headings and core interfaces, deliberately tuned to deliver an immersive and relaxing editing experience.
+* **Polished UI Components**
+  Redesigned primary interface elements, sidebar layouts, and active states with a pixel-perfect aesthetic, striking a flawless balance between form and function.
 
 ---
 
