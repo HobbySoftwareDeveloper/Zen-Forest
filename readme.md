@@ -1,9 +1,8 @@
-# Zen Forest 
+# Zen Forest
 
 A heavily customized, minimal, and aesthetic visual replacement for Obsidian. Based on the original [Zen Theme](https://github.com/laughmaker/zen) by @Laughmaker.
 
-`Zen Forest` 是一款基于原版 Zen 主题深度魔改的 Obsidian 极简视觉主题。它在保留原版纯净质感的同时，对高阶排版、窄视距对齐以及细节动画进行了像素级的打磨，旨在为你提供一个如同林间清晨般幽静、沉浸的沉浸式写作环境。
-
+`Zen Forest` is a deeply modified minimalist theme designed to retain a pure typography essence. It features pixel-perfect alignment for narrow viewports, custom easing animations, and a curated color palette, aiming to provide a quiet, immersive, and cinematic writing environment.
 
 ![](/preview/1.png?v=20260619)
 ![](/preview/2.png?v=20260619)
@@ -11,56 +10,49 @@ A heavily customized, minimal, and aesthetic visual replacement for Obsidian. Ba
 
 ---
 
-## Key Features / 核心特性
+## Key Features
 
-*   **Unified Narrow Viewport Width / 窄视距排版一体化**
-    *   *EN:* Overrode Obsidian's default behavior in readable line width mode. All headings ($H_1$ to $H_6$) and body text are now perfectly constrained to a unified layout width, eliminating horizontal misalignment.
-    *   *ZH:* 完美重构了可读行宽（Readable Line Width）模式。所有标题（$H_1$ 至 $H_6$）与正文在窄视距下实现对齐，彻底解决原生主题标题两边间距错位的问题。
-*   **Refined Modal Animations / 丝滑转场动画**
-    *   *EN:* Replaced rigid transitions with a custom `cubic-bezier` entrance animation for modals and dialogs, rendering fluid, cinematic window scaling.
-    *   *ZH:* 精心调校了模态弹窗的入场曲线，采用 `cubic-bezier` 缓动动画，让每一次弹窗开启都带有细腻、丝滑且富有弹性的质感。
+* **Unified Narrow Viewport Width**
+  Overrode Obsidian's default behavior in readable line width mode. All headings (H1 to H6) and body text are now perfectly constrained to a unified layout width, eliminating horizontal misalignment.
+* **Refined Modal Animations**
+  Replaced rigid transitions with a custom `cubic-bezier` entrance animation for modals and dialogs, rendering fluid, cinematic window scaling.
 
 ---
 
-## 移动端兼容性说明 / Mobile Compatibility
+## Mobile Compatibility
 
 > [!warning]
-> 本主题目前主要针对 **Desktop (Windows / macOS / Linux)** 平台进行深度打磨与日常使用。
+> This theme is primarily tailored and heavily optimized for **Desktop (Windows / macOS / Linux)** environments. 
 > 
-> 由于作者日常主力在电脑端编辑，**目前暂未对手机/平板等移动端（iOS / Android）进行全面适配**。移动端可能会出现排版错位或不理想的视觉效果。
-> 
-> 欢迎移动端用户体验并提交 Bug Report 或 Pull Request，帮助 `Zen Forest` 变得更完美！
-> 
-> *This theme is primarily tailored for desktop environments. Mobile layout optimization is still a work in progress. Contributions for mobile compatibility are highly welcome!*
+> Layout adaptation for mobile devices (iOS / Android) is still a work in progress and may exhibit layout misalignment. Contributions, Bug Reports, or Pull Requests for mobile compatibility are highly welcome!
 
 ---
 
-## Installation & Customization / 安装与微调
+## Installation & Customization
 
-### 1. Style Settings Integration / 完美融合配置滑块
-本主题兼容 **Style Settings** 插件。
+### 1. Style Settings Integration
+This theme is fully compatible with the **Style Settings** plugin for minor workspace tweaks.
 
-### 2. Manual Installation / 手动安装 (Snippet)
-如果你只想作为片段使用：
-1. 下载 `theme.css`。
-2. 将其放入你的 Obsidian 库文件夹：`.obsidian/snippets/zen-forest.css`。
-3. 在 `设置 -> 外观 -> CSS 代码片段` 中启用它。
+### 2. Manual Installation (Snippet)
+If you prefer to use it as a CSS snippet:
+1. Download `theme.css`.
+2. Move it to your vault folder: `.obsidian/snippets/zen-forest.css`.
+3. Enable it under `Settings -> Appearance -> CSS snippets`.
 
 ---
 
-### Theme Color & Style Notice / 主题配色与微调须知
+### Important Palette & Style Notice
 
-*   **Recommended Accent Color / 推荐主题色**
-    *   *ZH:* 为了获得完美的森林视觉沉浸感，建议在安装主题后，进入 `设置 -> 外观 -> 主题色（Accent color）` 中，将颜色自定义为 `#688958`（即 RGB: `104, 137, 88`）。
-    *   *EN:* For the best "Zen Forest" immersive experience, it is highly recommended to set your custom Accent Color to `#688958` (RGB: `104, 137, 88`) under `Settings -> Appearance -> Accent color`.
+* **Recommended Accent Color**
+  For the best "Zen Forest" immersive experience, it is highly recommended to set your custom Accent Color to `#688958` (RGB: `104, 137, 88`) under `Settings -> Appearance -> Accent color`.
+* **Hardcoded UI & Heading Colors**
+  Please note that the core forest-vibe color palette for headings (H1 - H6) and primary UI components is hardcoded at the root level. They **cannot** be modified via native appearance settings or the Style Settings plugin. If you wish to customize these colors, please open `theme.css` manually and modify the variables like `--h1-color` to `--h6-color` under the themed color tokens.
 
-*   **Hardcoded UI & Heading Colors / 核心配色微调说明**
-    *   *ZH:* 请注意，本主题的各级标题（$H_1$ - $H_6$）以及大部分 UI 组件的森林系配色是**写死在底层代码中**的，无法通过 Obsidian 的外观设置或 Style Settings 插件直接更改。如果您想要自定义这些颜色，需要直接打开 `theme.css` 文件，搜索 `--h1-color` 至 `--h6-color` 以及 `.theme-dark`/`.theme-light` 块下的变量进行手动修改。
-    *   *EN:* Please note that the forest-vibe color palette for headings ($H_1$ - $H_6$) and core UI components is hardcoded. They **cannot** be modified via the native appearance settings or the Style Settings plugin. If you wish to customize them, please open `theme.css` manually and modify the variables like `--h1-color` to `--h6-color` and relevant themed color tokens.
+---
 
-## License & Credits / 版权与协议
+## License & Credits
 
-*   **Original Theme:** [Zen Theme](https://github.com/laughmaker/zen) by @Laughmaker.
-*   **Modifications:** Customized with ❤️ by @Noctivision.
+* **Original Theme:** [Zen Theme](https://github.com/laughmaker/zen) by @Laughmaker.
+* **Modifications:** Customized with ❤️ by @Noctivision.
 
 This project is licensed under the **MIT License**. The full license text, including copyrights of both the original author and modifications, can be found directly in the header of `theme.css`.
